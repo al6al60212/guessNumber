@@ -13,6 +13,7 @@
 		CB6BE27028D20ACE00ABB352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6BE26E28D20ACE00ABB352 /* Main.storyboard */; };
 		CB6BE27228D20AD000ABB352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6BE27128D20AD000ABB352 /* Assets.xcassets */; };
 		CB6BE27528D20AD000ABB352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6BE27328D20AD000ABB352 /* LaunchScreen.storyboard */; };
+		CBEC24FD28D5400F00AA20CA /* YuppyTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEC24FC28D5400F00AA20CA /* YuppyTC-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB6BE27128D20AD000ABB352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6BE27428D20AD000ABB352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6BE27628D20AD000ABB352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEC24FC28D5400F00AA20CA /* YuppyTC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YuppyTC-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CB6BE26728D20ACE00ABB352 /* guessNumber */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC24FC28D5400F00AA20CA /* YuppyTC-Regular.otf */,
 				CB6BE26828D20ACE00ABB352 /* AppDelegate.swift */,
 				CB6BE26A28D20ACE00ABB352 /* SceneDelegate.swift */,
 				CB6BE26C28D20ACE00ABB352 /* ViewController.swift */,
@@ -128,6 +131,7 @@
 				CB6BE27528D20AD000ABB352 /* LaunchScreen.storyboard in Resources */,
 				CB6BE27228D20AD000ABB352 /* Assets.xcassets in Resources */,
 				CB6BE27028D20ACE00ABB352 /* Main.storyboard in Resources */,
+				CBEC24FD28D5400F00AA20CA /* YuppyTC-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guessNumber/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = guessNumber/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
